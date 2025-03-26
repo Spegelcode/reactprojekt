@@ -1,0 +1,30 @@
+.hero-section {
+  background-color: #e2e8f0; /* Tailwind's bg-gray-200 */
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  color: white;
+flex-wrap: wrap;}
+
+.hero-title {
+  font-size: 3.25rem; /* Tailwind's text-4xl */
+  margin-bottom: 1rem; /* Tailwind's mb-4 */
+}
+
+.hero-text {
+  font-size: 1.125rem; /* Tailwind's text-lg */
+  margin-bottom: 1rem; /* Tailwind's mb-4 */
+}
+
+.hero-image {
+
+  object-fit: contain;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}

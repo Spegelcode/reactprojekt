@@ -1,0 +1,42 @@
+.main-section {
+  background-color: #f8f9fa; /* Example background color */
+
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+
+
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-title {
+  font-size: 2.25rem; /* Example font size */
+  margin-bottom: 1rem; /* Example margin */
+}
+
+.main-text {
+  font-size: 1.125rem; /* Example font size */
+  margin-bottom: 1rem; /* Example margin */
+}
+
+.main-image {
+
+  max-width: 50vh; /* Example max width */
+  max-height: 50vh; /* Example max height */
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+}
