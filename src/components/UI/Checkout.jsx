@@ -1,5 +1,11 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements, useStripe, useElemets, cardElements } from "@stripe/react-stripe-js";
+
+
+
+const stripePromise = loadStripe(pk_test_51R7Cog2YSZsKT8ZB6B8VFBsdxoplHKS4Wzl73WshT2x7vVnwf6Pxl0ZB4tjV5JLPgepmx8vyTt4HXVWZMDzVaQk500qdimT8OZ);
 
 const Checkout = () => {
   const location = useLocation();

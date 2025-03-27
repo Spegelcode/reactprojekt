@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import "./order.css";
+import "./Order.css";
 import { useNavigate } from "react-router-dom";
 import Checkout from "./Checkout";
+//import Checkout form "./CheckoutWrapper";
+
 
 const Order = () => {
   const [cart, setCart] = useState([]);

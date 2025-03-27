@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/UI/NavBar";  
 import HeroSection from "./components/UI/HeroSection";
 import MainSection from "./components/UI/MainSection";
-import Order from "./components/UI/Order";
+import Order from "./components/UI/Order.jsx";
 import Checkout from "./components/UI/Checkout";
 
 function App() {
